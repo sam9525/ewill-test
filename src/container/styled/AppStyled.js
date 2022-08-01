@@ -337,12 +337,15 @@ export const StyledForm = styled.div`
   }
 
   .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 123px;
     height: 43px;
     top: -30px;
     left: 50%;
-    padding: 10px;
+    padding-left: 10px;
 
     font-style: normal;
     font-weight: 700;
@@ -380,6 +383,7 @@ export const StyledForm = styled.div`
     padding-bottom: 40px;
   }
   .select_title {
+    padding-top: 4px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
